@@ -7,7 +7,7 @@ import bootstrap from '../assets/bootstrap.png'
 import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
 import Tailwind from '../assets/Tailwind.png'
-import vsCode from '../assets/vsCode.png'
+import visualcodeimg from '../assets/visualcodeimg.png'
 import github from '../assets/github.png'
 
 const Technology = () => {
@@ -37,7 +37,7 @@ const Technology = () => {
                             <Image className= 'w-full h-full object-cover cursor-auto' src={Tailwind} alt=''/>
                         </div>
                         <div className="html w-[100px] h-[100px]  p-4   border-[5px] border-[#696769] rounded-xl">
-                            <Image className= 'w-full h-full object-cover cursor-auto' src={vsCode} alt=''/>
+                            <Image className= 'w-full h-full object-cover cursor-auto' src={visualcodeimg} alt=''/>
                         </div>
                         <div className="html w-[100px] h-[100px]  p-4   border-[5px] border-[#696769] rounded-xl">
                             <Image className= 'w-full h-full object-cover cursor-auto' src={github} alt=''/>
