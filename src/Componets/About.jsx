@@ -3,6 +3,7 @@ import Container from './Layer/Container';
 import Image from './Layer/Image';
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import image from '../assets/image.jpg'
+import Resume from '../assets/Resume/cv.pdf'
 
 const AboutMe = () => {
   return (
@@ -22,10 +23,10 @@ const AboutMe = () => {
                 <p className=' font-Roboto text-[#E5E5E5] text-xs lg:text-base'>
                     I am a dedicated and versatile front-end developer with a passion for creating efficient and user-friendly web applications. With 1 years of experience, I have honed my skill in front-end technology like React. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges.
                 </p>
-                <div className="downloade py-4 mt-5 border border-[#A53DFF]  rounded-lg  bg-transparent lg:w-1/2 flex flex-col items-center justify-center hover:bg-[#A53DFF] hover:transition-all hover:duration-300  ">
+                <a href={Resume} download='Resume' className=" py-4 mt-5 border border-[#A53DFF]  rounded-lg  bg-transparent lg:w-1/2 flex flex-col items-center justify-center hover:bg-[#A53DFF] hover:transition-all hover:duration-300  ">
                     <FaCloudDownloadAlt className='text-[#E5E5E5]  lg:flex items-center justify-center w-full hidden'  />
-                    <button className='text-[#E5E5E5] font-Roboto '>Download My Resume</button>
-                </div>
+                    <span className='text-[#E5E5E5] font-Roboto '>Download My Resume</span>
+                </a>
                 
             </div>
            </div>

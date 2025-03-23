@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./Layer/Card";
 import Container from "./Layer/Container";
-import nirob from "../assets/nirob.jpg";
 import orebi from "../assets/orebi.png";
 import resturant from "../assets/resturant.png"
 import hekto from "../assets/hekto.png"
